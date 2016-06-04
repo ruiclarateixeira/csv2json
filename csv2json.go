@@ -1,10 +1,10 @@
 package csv2json
 
-import(
+import (
 	"fmt"
 )
 
 func ReadFile(filePath string) string { // This will actually return a json array
-     fmt.Printf( "Got: %s\n", filePath );
-     return filePath;
-} 
+	fmt.Printf("Got: %s\n", filePath)
+	return filePath
+}
